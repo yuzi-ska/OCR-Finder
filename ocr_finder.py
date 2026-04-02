@@ -396,6 +396,7 @@ class OCRFinder:
                 return False
 
             if extracted_text == "":
+                self.skipped_files += 1
                 self.verbose_log(f"No text found: {file_path.name}")
                 return False
 
@@ -418,6 +419,7 @@ class OCRFinder:
                     self.error_files += 1
                 return True
             else:
+                self.skipped_files += 1
                 self.verbose_log(f"No match: {file_path.name}")
             return False
         except Exception as exc:
