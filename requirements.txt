@@ -1,0 +1,4 @@
+# OCR Finder - CPU only with RapidOCR
+rapidocr_onnxruntime
+psutil>=5.9.0
+nuitka>=2.6
