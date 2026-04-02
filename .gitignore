@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+.compat-venv/
+cpu-venv/
+gpu-venv/
+
+# Build artifacts
+build/
+release/
+dist/
+dist_*/
+*.egg-info/
+*.build/
+*.dist/
+*.onefile-build/
+*.log
+nuitka-crash-report.xml
+ccache-*.txt
+scons-*.txt
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+tests/__pycache__/
+
+# Local outputs
+output/
+smoke_output/
+.smoke/
+offline_wheels/
+garbage/
+
+# Local Claude/OMC state
+.claude/
+.omc/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
